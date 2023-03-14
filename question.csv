@@ -1,0 +1,22 @@
+q_Id,Subject,sclass,str_id,scl_id,question,opt1,opt2,opt3,opt4,ans,qes_dt
+EVS101,EVS101,One,Gen,GFCS,Our Father'S Father Is ,Cusin,Grand Father,Uncle,Parent,Grand Father,07-03-2023
+EVS102,EVS102,One,Gen,GFCS,Which Of The Following Is Not Healthy Drink,Cocacola,Lemonade,Lassi,Juice,Cocacola,07-03-2023
+EVS103,EVS103,One,Gen,GFCS,Which Of The Following Is Fast Running Animal,Sheep,Buffalow ,Horse,Elephant,Horse,07-03-2023
+EVS104,EVS104,One,Gen,GFCS,Which Animal Lives Both On Land And Wtater,Tortoise,Whale,Monkey,Cow,Tortoise,07-03-2023
+EVS105,EVS105,One,Gen,GFCS,"Choose The Number To Complete The Following Pattern 4,8,12,16,…",18,20,19,17,20,07-03-2023
+ENG101,ENG101,One,Gen,GFCS,Choose The Verb : Dog Bark At My Friend,Friend,Bark,My ,Dog,Bark,07-03-2023
+ENG102,ENG102,One,Gen,GFCS,Find The Correct Spelling,Ballon,Balloon,Baaloon,Belloon,Balloon,07-03-2023
+ENG103,ENG103,One,Gen,GFCS,How Do You Feel When You Get A Gift,Happy,Sad,Cry,Angry,Happy,07-03-2023
+ENG104,ENG104,One,Gen,GFCS,"We Use ……. With He, She Or It",Is,Am ,Are ,Non,Is,07-03-2023
+ENG105,ENG105,One,Gen,GFCS,"Fill The Missing In The Following Sentence ""The B--L Is Big",Aa,Ol,Al,Cl,Al,07-03-2023
+MAT201,MAT201,Two,Gen,DPS,How Many Days Are Equal To 48 Hours,One,Two,Three,Four,Two,07-03-2023
+MAT202,MAT202,Two,Gen,DPS,Which One Of The Following Is True,Two Twenty=30,Sic Ten =70,Five Ten=40,Three Ten=30,Three Ten=30,07-03-2023
+MAT203,MAT203,Two,Gen,DPS,15-5 = ……..,10,0,5,11,10,07-03-2023
+MAT204,MAT204,Two,Gen,DPS,"John Has To Solve 9 Question. He Solved 5 Question, How Many Question Still He Has To Solve",4,3,5,2,4,07-03-2023
+MAT205,MAT205,Two,Gen,DPS,"Write In The Order From Biggest To Smallest 9,29,18,45,6,9","69,29,18,45,9","18,45,9,29,69","18,69,45,9,29","69,45,29,18,9","69,45,29,18,9",07-03-2023
+CMP201,CMP201,Two,Gen,DPS,Which Of The Following Task A Computer Can Do For You?,Eat Food,Play Music,Drink Water,Take Bath,Play Music,07-03-2023
+CMP202,CMP202,Two,Gen,DPS,"Device That Display Words, Video And Picture On The Screen",Mouse,Cpu,Keyboard,Monitor,Monitor,07-03-2023
+CMP203,CMP203,Two,Gen,DPS,"To Type Capital Letters, Turn On The ……… Key On Keyboard",Caps Lock,Delete,Shift,Enter,Caps Lock,07-03-2023
+CMP204,CMP204,Two,Gen,DPS,Which Of The Following Is An Important Feature Of Computer,Shape,Speed,Color,Size,Speed,07-03-2023
+CMP205,CMP205,Two,Gen,DPS,Which Key Help You To Start A New Line ?,Caps Lock,Space Bar,Shift,Enter,Enter,07-03-2023
+,,,,,,,,,,,

@@ -1,0 +1,571 @@
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#4188c9">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="https://www.rkctyping.online/assets/images/logo/16238422381595704232quizzy_favicon_copy.png" />
+  <!-- Generated: 2018-04-16 09:29:05 +0200 -->
+ 
+      <meta name="keywords" content="quiz, test, online, exams, practiceset, mcq,questionanswer,">
+      <meta name="description" content="A highly scalable and powerful Online Exam System to manage categories, quizes and multiple choice questions. Prepare candidates to perform extraordinarily with an easy to use highly interactive platform and simplify the assessment cycle.">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500,700|Work+Sans:400,700" rel="stylesheet">
+
+
+  
+    <title>Test - Set Practice</title>
+  
+         
+  
+                    <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/admin/css/bootstrap.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/admin/css/all.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/quizzy.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/custom.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/admin/css/dataTables.bootstrap4.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/admin/css/select2.min.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/cookiealert.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/noty.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/admin/css/sweetalert.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/sweetalert.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/table-main.css?v=1.2.0">
+                      <link rel="stylesheet" href="https://www.rkctyping.online/assets/themes/quizzy/css/perfect-scrollbar.css?v=1.2.0">
+      
+
+
+<script> 
+  var BASE_URL = 'https://www.rkctyping.online/'; 
+  var csrf_Name = 'csrf_test_name'; 
+  var csrf_Hash = 'b41dbf99280f74198821caebd86a40ce'; 
+  var rtl_dir = "";
+  var are_you_sure = "Are you sure";
+  var permanently_deleted = "Delete permanent";
+  var yes_delere_it = "Delete";
+  var resume_quiz_lang = "Resume Quiz";
+  var quiz_result_lang = "Quiz Result";
+  var check_quiz_result = "Time Over Check Quiz Result";
+  var table_search = "Search";
+  var table_show = "Show";
+  var table_entries = "Entries";
+  var table_showing = "Showing";
+  var table_to = "To";
+  var table_of = "Of";
+  var java_error_msg = "Error";
+  var table_previous = "Previous";
+  var table_next = "Next";
+  var total_attemp = "Your total attemp is";
+  var yes_submit_now = "Submit Test";
+  var quiz_already_running = "Quiz already running";
+  var stop_running_quiz_msg = "Please complete quiz or Stop running quiz";
+  var resume_quiz = "Resume Quiz";
+  var stop_quiz = "Stop Quiz";
+  
+  var flash_message = '';
+  var flash_error = '';
+
+  var error_report = '';
+  var ad_left_time = '0';
+  var ad_active_quiz = 'https://www.rkctyping.online/test/39/1';
+  var test_page = 'quiz';
+  var login_user_id = 52;
+  login_user_id = parseInt(login_user_id); 
+
+  var disable_right_click = 'NO';
+  var disable_print_screen = 'YES';
+
+
+</script>
+
+</head>
+
+<body class="h-100 ">
+  <!-- Back to top button -->
+  <a id="back-to-top-button"><i class="fas fa-angle-double-up"></i></a>
+  <div class="page">
+    <div class="page-main">
+      <div class="header py-3 navigation-wrap start-header start-style">
+        <div class="container">
+          <div class="navbar navbar-expand-lg py-1">
+            <a class="header-brand" href="https://www.rkctyping.online/">
+              <img class="header-brand-img" src="https://www.rkctyping.online/assets/images/logo/1623842382AKHLESH_copy.png">
+            </a>
+
+            <div class="collapse navbar-collapse text-right" id="headerMenuCollapse">
+
+              <ul class="navbar-nav nav nav-tabs navbar-right  border-0">
+                
+                    <li class="nav-item">
+                      <a href="https://www.rkctyping.online/pages/admin" class='nav-link '>
+                        Admin</a>
+                      </li>
+                      
+                  
+                    <li class="nav-item">
+                      <a href="https://www.rkctyping.online/my/history" class="nav-link  "> Quiz History</a>
+                    </li>
+                    
+                  <li class="nav-item">
+                    <a class="nav-link " href="https://www.rkctyping.online/blog">
+                      Blog
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.rkctyping.online/contact">
+                      Contact Us                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"> <i class=" mr-2 fa fa-language"></i>Language</a>
+                    <div class="dropdown-menu dropdown-menu-arrow" id="session-language-dropdown">
+                                              <a href="https://www.rkctyping.online/change-language" rel="English" class="dropdown-item ">
+                                                      <i class="fa fa-check selected-session-language"></i>
+                                                    English                        </a>
+                                              <a href="https://www.rkctyping.online/change-language" rel="हिन्दी" class="dropdown-item ">
+                                                    हिन्दी                        </a>
+                                          </div>
+                  </li>
+
+
+                  
+                      <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown" title="demo test"><span class="avatar" ></span>
+
+                          <span class="ml-2 d-none d-lg-block">
+                            <span class="text-defaultt"> demo test</span>
+                          </span>
+
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-arrow">
+                                                    <a class="dropdown-item" href="https://www.rkctyping.online/profile">
+                            <i class="dropdown-icon fe fe-user "></i>Profile 
+                          </a>
+                          
+                          <div class="dropdown-divider"></div>
+
+                          <a class="dropdown-item" href="https://www.rkctyping.online/logout">
+                            <i class="dropdown-icon fe fe-log-out "></i>Sign out                          </a>
+
+                        </div>
+                      </li>
+                      
+                    <li class="nav-item">
+                      <div class="nav-item d-md-flex">
+                        <label id="switch" class="switch mt-2">
+                          <input type="checkbox" class="toggleTheme" id="slider">
+                          <span class="slider round"></span>
+                        </label>
+                      </div>                     
+                    </li>
+
+                  </ul>
+
+                </div>
+
+
+                <button class="navbar-toggler" id="menu_togle_btn" type="button" data-toggle="collapse" data-target="#headerMenuCollapse" aria-controls="headerMenuCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+                </button>
+
+              </div>
+            </div>
+          </div>   
+
+          <div class="my-3 my-md-5 header_margin_padding">
+            <div class="container">
+  
+  <div class="row">
+    <div class="col-12 mb-5">
+      <div class="row mt-5">
+        <div class="card mb-0">
+          <div class="card-header timer py-5">
+              <div class="col-md-8 col-xl-8 col-sm-12 text-left my-5">
+                <h2 class="heading m-0">
+                    Exam Date 10.12.2019 3rd Shift -Beltron (DEO) Previous Year Question                </h2>
+              </div>
+              <div class="col-md-4 col-xl-4 col-sm-12 text-left my-5">  
+                <h2 class="card-titlee timer heading m-0">
+                  <span class="float-left mr-3"> Count Down: </span>
+                  <span class="text-danger timerrr" data-seconds-left=3596 > &nbsp; </span>
+                  <section class='actions'></section>
+                </h2>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="page-header">
+      </div>
+
+  <div class="clearfix"></div>
+  <!-- <div class="col-12">  <hr> </div> -->
+
+
+  <form action="" method="POST" id="myform" class="container" >
+    <input type="hidden" name="csrf_test_name" value="b41dbf99280f74198821caebd86a40ce" />
+    <div class="row">
+
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">
+              <p class="font-weight-bold">Question Number 1.</p>
+              <br />
+              <p>
+                A merged document can be printed using _______.      
+              </p>  
+            </h3>
+          </div>
+
+          <div class="card-body">
+
+            
+            <div class="selectgroup selectgroup-pills w-100">
+              
+                  <label class="selectgroup-item btn-block">
+                    <input  type="radio" name="answer[]" value="CTRL + SHIFT + M" class="selectgroup-input answer_input" >
+
+                    <div class="selectgroup-button ">
+                      CTRL + SHIFT + M                    </div>
+                  </label>
+              
+                  <label class="selectgroup-item btn-block">
+                    <input  type="radio" name="answer[]" value="SHIFT + CTRL + P" class="selectgroup-input answer_input" >
+
+                    <div class="selectgroup-button ">
+                      SHIFT + CTRL + P                    </div>
+                  </label>
+              
+                  <label class="selectgroup-item btn-block">
+                    <input  type="radio" name="answer[]" value="SHIFT + ALT + P" class="selectgroup-input answer_input" >
+
+                    <div class="selectgroup-button ">
+                      SHIFT + ALT + P                    </div>
+                  </label>
+              
+                  <label class="selectgroup-item btn-block">
+                    <input  type="radio" name="answer[]" value="ALT + SHIFT + M" class="selectgroup-input answer_input" >
+
+                    <div class="selectgroup-button ">
+                      ALT + SHIFT + M                    </div>
+                  </label>
+                              
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-options">
+              <div class="next-previous-main">
+                <button type="Submit" name="preview_quiz" value="Previous" class="btn btn-sm btn-azure mr-2"><i class="fe fe-chevron-left"></i>Previous</button>
+                <button type="Submit" name="next_quiz" value="Next" class="btn btn-sm btn-azure mr-2">Next <i class="fe fe-chevron-right"></i></button>
+              </div>  
+              <button type="Submit" name="mark_or_next_quiz" value="Mark for Review and Next" class="btn btn-sm btn-orange mr-2 ml-auto answer_given"><i class="fe fe-check-circle"></i>Mark for Review and Next </button>
+              <div class="save-next-main">
+                <button type="Submit" name="save_or_next_quiz" value="Save & Next" class="btn btn-sm btn-teal mr-2 answer_given"><i class="fe fe-save"></i> Save And Next</button>
+                <button type="Submit" name="submit_test" value="Submit Test" class="btn btn-sm btn-azure mr-2 submit_test "><i class="fe fe-corner-down-right"></i>Submit Test </button>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 order-lg-1 mb-4">
+        <div class="card">
+          <div class="card-header timerrrrrr d-none">
+            <h3 class="card-title "><span class="float-left mr-3"> Count Down: </span>
+               <span class="text-danger timerrr" data-seconds-left=3596 > &nbsp; </span>
+              <section class='actions'></section>
+            </h3>
+          </div>
+
+          <div class="card-body">
+            <p class="mb-3">Question Palette : </p>
+                            <a href="https://www.rkctyping.online/test/39/1" class="btn btn-danger ml-1 mb-2 question_no" > 1</a>
+                            <a href="https://www.rkctyping.online/test/39/2" class="btn btn-gray ml-1 mb-2 question_no" > 2</a>
+                            <a href="https://www.rkctyping.online/test/39/3" class="btn btn-gray ml-1 mb-2 question_no" > 3</a>
+                            <a href="https://www.rkctyping.online/test/39/4" class="btn btn-gray ml-1 mb-2 question_no" > 4</a>
+                            <a href="https://www.rkctyping.online/test/39/5" class="btn btn-gray ml-1 mb-2 question_no" > 5</a>
+                            <a href="https://www.rkctyping.online/test/39/6" class="btn btn-gray ml-1 mb-2 question_no" > 6</a>
+                            <a href="https://www.rkctyping.online/test/39/7" class="btn btn-gray ml-1 mb-2 question_no" > 7</a>
+                            <a href="https://www.rkctyping.online/test/39/8" class="btn btn-gray ml-1 mb-2 question_no" > 8</a>
+                            <a href="https://www.rkctyping.online/test/39/9" class="btn btn-gray ml-1 mb-2 question_no" > 9</a>
+                            <a href="https://www.rkctyping.online/test/39/10" class="btn btn-gray ml-1 mb-2 question_no" > 10</a>
+                            <a href="https://www.rkctyping.online/test/39/11" class="btn btn-gray ml-1 mb-2 question_no" > 11</a>
+                            <a href="https://www.rkctyping.online/test/39/12" class="btn btn-gray ml-1 mb-2 question_no" > 12</a>
+                            <a href="https://www.rkctyping.online/test/39/13" class="btn btn-gray ml-1 mb-2 question_no" > 13</a>
+                            <a href="https://www.rkctyping.online/test/39/14" class="btn btn-gray ml-1 mb-2 question_no" > 14</a>
+                            <a href="https://www.rkctyping.online/test/39/15" class="btn btn-gray ml-1 mb-2 question_no" > 15</a>
+                            <a href="https://www.rkctyping.online/test/39/16" class="btn btn-gray ml-1 mb-2 question_no" > 16</a>
+                            <a href="https://www.rkctyping.online/test/39/17" class="btn btn-gray ml-1 mb-2 question_no" > 17</a>
+                            <a href="https://www.rkctyping.online/test/39/18" class="btn btn-gray ml-1 mb-2 question_no" > 18</a>
+                            <a href="https://www.rkctyping.online/test/39/19" class="btn btn-gray ml-1 mb-2 question_no" > 19</a>
+                            <a href="https://www.rkctyping.online/test/39/20" class="btn btn-gray ml-1 mb-2 question_no" > 20</a>
+                            <a href="https://www.rkctyping.online/test/39/21" class="btn btn-gray ml-1 mb-2 question_no" > 21</a>
+                            <a href="https://www.rkctyping.online/test/39/22" class="btn btn-gray ml-1 mb-2 question_no" > 22</a>
+                            <a href="https://www.rkctyping.online/test/39/23" class="btn btn-gray ml-1 mb-2 question_no" > 23</a>
+                            <a href="https://www.rkctyping.online/test/39/24" class="btn btn-gray ml-1 mb-2 question_no" > 24</a>
+                            <a href="https://www.rkctyping.online/test/39/25" class="btn btn-gray ml-1 mb-2 question_no" > 25</a>
+                            <a href="https://www.rkctyping.online/test/39/26" class="btn btn-gray ml-1 mb-2 question_no" > 26</a>
+                            <a href="https://www.rkctyping.online/test/39/27" class="btn btn-gray ml-1 mb-2 question_no" > 27</a>
+                            <a href="https://www.rkctyping.online/test/39/28" class="btn btn-gray ml-1 mb-2 question_no" > 28</a>
+                            <a href="https://www.rkctyping.online/test/39/29" class="btn btn-gray ml-1 mb-2 question_no" > 29</a>
+                            <a href="https://www.rkctyping.online/test/39/30" class="btn btn-gray ml-1 mb-2 question_no" > 30</a>
+                            <a href="https://www.rkctyping.online/test/39/31" class="btn btn-gray ml-1 mb-2 question_no" > 31</a>
+                            <a href="https://www.rkctyping.online/test/39/32" class="btn btn-gray ml-1 mb-2 question_no" > 32</a>
+                            <a href="https://www.rkctyping.online/test/39/33" class="btn btn-gray ml-1 mb-2 question_no" > 33</a>
+                            <a href="https://www.rkctyping.online/test/39/34" class="btn btn-gray ml-1 mb-2 question_no" > 34</a>
+                            <a href="https://www.rkctyping.online/test/39/35" class="btn btn-gray ml-1 mb-2 question_no" > 35</a>
+                            <a href="https://www.rkctyping.online/test/39/36" class="btn btn-gray ml-1 mb-2 question_no" > 36</a>
+                            <a href="https://www.rkctyping.online/test/39/37" class="btn btn-gray ml-1 mb-2 question_no" > 37</a>
+                            <a href="https://www.rkctyping.online/test/39/38" class="btn btn-gray ml-1 mb-2 question_no" > 38</a>
+                            <a href="https://www.rkctyping.online/test/39/39" class="btn btn-gray ml-1 mb-2 question_no" > 39</a>
+                            <a href="https://www.rkctyping.online/test/39/40" class="btn btn-gray ml-1 mb-2 question_no" > 40</a>
+                            <a href="https://www.rkctyping.online/test/39/41" class="btn btn-gray ml-1 mb-2 question_no" > 41</a>
+                            <a href="https://www.rkctyping.online/test/39/42" class="btn btn-gray ml-1 mb-2 question_no" > 42</a>
+                            <a href="https://www.rkctyping.online/test/39/43" class="btn btn-gray ml-1 mb-2 question_no" > 43</a>
+                            <a href="https://www.rkctyping.online/test/39/44" class="btn btn-gray ml-1 mb-2 question_no" > 44</a>
+                            <a href="https://www.rkctyping.online/test/39/45" class="btn btn-gray ml-1 mb-2 question_no" > 45</a>
+                            <a href="https://www.rkctyping.online/test/39/46" class="btn btn-gray ml-1 mb-2 question_no" > 46</a>
+                            <a href="https://www.rkctyping.online/test/39/47" class="btn btn-gray ml-1 mb-2 question_no" > 47</a>
+                            <a href="https://www.rkctyping.online/test/39/48" class="btn btn-gray ml-1 mb-2 question_no" > 48</a>
+                            <a href="https://www.rkctyping.online/test/39/49" class="btn btn-gray ml-1 mb-2 question_no" > 49</a>
+                            <a href="https://www.rkctyping.online/test/39/50" class="btn btn-gray ml-1 mb-2 question_no" > 50</a>
+                            <a href="https://www.rkctyping.online/test/39/51" class="btn btn-gray ml-1 mb-2 question_no" > 51</a>
+                            <a href="https://www.rkctyping.online/test/39/52" class="btn btn-gray ml-1 mb-2 question_no" > 52</a>
+                            <a href="https://www.rkctyping.online/test/39/53" class="btn btn-gray ml-1 mb-2 question_no" > 53</a>
+                            <a href="https://www.rkctyping.online/test/39/54" class="btn btn-gray ml-1 mb-2 question_no" > 54</a>
+                            <a href="https://www.rkctyping.online/test/39/55" class="btn btn-gray ml-1 mb-2 question_no" > 55</a>
+                            <a href="https://www.rkctyping.online/test/39/56" class="btn btn-gray ml-1 mb-2 question_no" > 56</a>
+                            <a href="https://www.rkctyping.online/test/39/57" class="btn btn-gray ml-1 mb-2 question_no" > 57</a>
+                            <a href="https://www.rkctyping.online/test/39/58" class="btn btn-gray ml-1 mb-2 question_no" > 58</a>
+                            <a href="https://www.rkctyping.online/test/39/59" class="btn btn-gray ml-1 mb-2 question_no" > 59</a>
+                            <a href="https://www.rkctyping.online/test/39/60" class="btn btn-gray ml-1 mb-2 question_no" > 60</a>
+                      </div>
+
+          <div class="card-footer">
+            <div class="card-options">
+              <span class="tag tag-green mr-2 mb-2">0</span> Answered              <span class="tag tag-red mr-3 mb-2 ml-auto">1 </span>Not Answered 
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-options">
+              <span class="tag tag-purple mr-2 mb-2">0</span> Total Attempt 
+              <span class="tag tag-gray mr-6 mb-2 ml-auto">59 </span> Not Visited            </div>
+          </div>
+
+          <div class="card-footer">
+            <div class="card-options">
+              <span class="tag tag-orange mr-2 mb-2">0</span> Answered & Marked for Review 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </form>
+
+</div>
+          </div>
+
+          <div class="footer mt-5">
+            <div class="container">
+              <div class="row">
+
+                
+                <div class="col-lg-3 Footer_section_1">
+
+                  <div class="row">
+                                              <div class="col-12 column_1">
+                            <h6> </h6>
+                            <div class="img_content"> 
+                                                            <img src="https://www.rkctyping.online/assets/images/footer/section/1624358859_TIME_white.png" class="field_img">
+                            </div>
+                          </div>
+                          
+                          <div class="col-12">
+                            <h4 class="text_heading"> </h4>
+                            <p class="footer_text_1">A highly scalable and powerful Online Exam System to manage categories, quizzes and multiple choice questions. Prepare candidates to perform extraordinarily with an easy to use highly interactive platform and simplify the assessment cycle. </p>
+                          </div>
+
+                                            </div>
+
+                </div>
+
+
+
+
+
+                <div class="col-lg-3 Footer_section_2">
+
+                  <div class="row">
+                    
+                          <div class="col-12">
+                            <h4 class="text_heading">Categories </h4>
+                                                      </div>
+
+                          
+                          <div class="col-12 colum_link_section_2">
+                            <a class="link_section_2" href="#"> Govt. Exams</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_2">
+                            <a class="link_section_2" href="#"> Medical Enterance</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_2">
+                            <a class="link_section_2" href="#"> Engineering Enterance</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_2">
+                            <a class="link_section_2" href="#"> Civil Services</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_2">
+                            <a class="link_section_2" href="#"> Bank Exams</a>                              
+                          </div>
+
+                                            </div>
+
+
+                </div>
+
+
+                <div class="col-lg-3 Footer_section_3">
+
+                  <div class="row">
+                    
+                          <div class="col-12">
+                            <h4 class="text_heading">Other Pages </h4>
+                                                      </div>
+
+                          
+                          <div class="col-12 colum_link_section_3">
+                            <a class="link_section_3" href="#"> Terms and Conditions</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_3">
+                            <a class="link_section_3" href="#"> Privacy Policy</a>                              
+                          </div>
+
+                          
+                          <div class="col-12 colum_link_section_3">
+                            <a class="link_section_3" href="#"> Help and Support</a>                              
+                          </div>
+
+                                            </div>
+
+                </div>
+
+
+                <div class="col-lg-3 Footer_section_4">
+
+                  <div class="row">
+                    
+                          <div class="col-12">
+                            <h4 class="text_heading">Follow Us </h4>
+                                                      </div>
+
+                          
+                          <div class="col-12">
+                            <h6> </h6>
+                            <ul class="social-network social-circle">
+<li><a href="#" title="Facebook"><i class="fab fa-facebook-square"></i></a></li>
+<li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+</ul>                          </div>
+
+                                            </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 text-center copyright_footer">
+                  Copyright © 2023 Set Practice v1.2.0. © 2023 All rights reserved                </div>
+              </div>
+            </div>
+
+            <!-- START Bootstrap-Cookie-Alert -->
+            <div class="alert text-center cookiealert" role="alert">
+              <b>Do you like cookies</b> &#x1F36A; We use cookies <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+
+              <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+                I agree
+              </button>
+            </div>
+            <!-- END Bootstrap-Cookie-Alert -->
+
+          </footer>
+        </div>
+      </div>
+
+                                              
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/jquery.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/jquery-ui.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/popper.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/tooltip.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/bootstrap.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/jquery.nicescroll.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/jquery.dataTables.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/dataTables.bootstrap4.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/select2.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/noty.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/commonjs.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/cookiealert.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/admin/js/sweetalert-dev.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/jquery.simple.timer.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/Chart.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/test.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/dojo.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/notify.min.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/sweetalert-dev.js?v=1.2.0"></script>
+                                          
+<script type="text/javascript" src="https://www.rkctyping.online/assets/themes/quizzy/js/perfect-scrollbar.min.js?v=1.2.0"></script>
+                                        
+<script type="text/javascript">
+
+</script>
+                      
+</body>
+</html>

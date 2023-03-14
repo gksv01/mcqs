@@ -1,0 +1,53 @@
+<?php
+$con=mysqli_connect("localhost", "root", "", "mcqs");
+// Check connection
+<?php
+        $conn = mysqli_connect("localhost", "root", "", "mcqs");
+if($conn === false) {
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+
+$result = mysqli_query($con,"SELECT * FROM student");
+
+echo "<table border='1'>
+<tr>
+<th>ID :</th> 
+<th>Roll No :</th>     
+<tr><td rowspan="3">Image</td>  
+<th>Name :</th>
+<th>Father's Name :</th>
+<th>Date Of Birth :</th>
+<th>Class :</th>
+<th>School Name :</th>
+<th>Gender :</th>
+<th>Email :</th>
+<th>Mobile :</th>
+<th>Address :</th>
+<th>District :</th>
+<th>State :</th>
+<th>PIN CODE :</th>
+</tr>";
+
+while($row = mysqli_fetch_array($result))
+{
+echo "<tr>";
+echo "<td>" . $row['Std_id'] . "</td>";
+echo "<td>" . $row['rollno'] . "</td>";
+echo "<td>" . $row['std_name'] . "</td>";
+echo "<td>" . $row['fname'] . "</td>";
+echo "<td>" . $row['dob'] . "</td>";
+echo "<td>" . $row['sclass'] . "</td>";
+echo "<td>" . $row['scl_name'] . "</td>";
+echo "<td>" . $row['gender'] . "</td>";
+echo "<td>" . $row['email'] . "</td>";
+echo "<td>" . $row['mobile'] . "</td>";
+echo "<td>" . $row['city'] . "</td>";
+echo "<td>" . $row['district'] . "</td>";
+echo "<td>" . $row['state'] . "</td>";
+echo "<td>" . $row['pincode'] . "</td>";
+echo "</tr>";
+}
+echo "</table>";
+
+mysqli_close($con);
+?>
